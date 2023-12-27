@@ -1,0 +1,54 @@
+.colors {
+    padding: 64px;
+    display: flex;
+    overflow: hidden;
+}
+
+.colors__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1.22;
+}
+
+.colors__content-info {
+    flex: 1;
+}
+
+.colors__content-info h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 88px;
+    color: var(--secondary-color);
+}
+
+/* Slideshow container */
+.colors__slideshow-container {
+    display: flex;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 46px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

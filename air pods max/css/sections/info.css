@@ -1,0 +1,31 @@
+.info {
+    padding-left: 400px;
+    padding-right: 400px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.info__content {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.info__content h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.info__content h2 {
+    font-size: 220px;
+    color: var(--secondary-color);
+}
+
+.info__content p {
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+}

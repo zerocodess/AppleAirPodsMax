@@ -1,0 +1,44 @@
+/* other css file imports */
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/sound.css");
+@import url("sections/colors.css");
+@import url(sections/case.css);
+@import url(sections/info.css);
+@import url(sections/footer.css);
+
+:root {
+    --primary-color: #dddddd;
+    --secondary-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

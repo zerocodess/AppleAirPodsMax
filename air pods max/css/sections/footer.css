@@ -1,0 +1,43 @@
+.footer {
+    padding: 64px;
+    background: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer ul {
+    list-style: none;
+
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.footer ul:last-child {
+    gap: 32px;
+}
+
+.footer__nav li {
+    font-size: 18px;
+    font-weight: 500;
+
+    color: var(--secondary-color);
+
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
